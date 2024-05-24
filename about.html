@@ -37,9 +37,44 @@
       src="https://kit.fontawesome.com/ddc3ee268a.js"
       crossorigin="anonymous"
     ></script>
-    <title>Portfolio</title>
+    <meta
+      name="description"
+      content="Beatrice is a front-end engineer
+     based in Portugal."
+    />
+    <title>About Beatrice</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Beatrice logo"
+          />
+          <img
+            src="images/logo-small.jpeg"
+            class="logo d-block d-md-none"
+            alt="Beatrice logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About page"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Beatrice's work"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Beatrice"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -53,7 +88,7 @@
               really good to see the ways in which it is improving all aspects
               of society and I feel great to be part of this.
             </p>
-            <a href="" class="btn btn-branding">View my projects</a>
+            <a href="/work.html" class="btn btn-branding">View my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -61,5 +96,63 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h4>Work Enquiry</h4>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Beatrice"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:beatricegachau@gmail.com"
+          class="email-link"
+          title="Email Beatrice"
+          >beatricegachau@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center mb-5">
+        <a
+          href="https://www.github.com/trishgachau"
+          target="_blank"
+          title="Github profile"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/trishgachau"
+          target="_blank"
+          title="Instagram profile"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/trishgachau"
+          target="_blank"
+          title="Facebook profile"
+        >
+          <i class="fab fa-facebook"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">
+        ✌🏾 This project was coded by Beatrice Gachau, and it is
+        <a
+          href="https://https://github.com/Trishgachau/Portfolio-Project"
+          target="_blank"
+        >
+          open sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
